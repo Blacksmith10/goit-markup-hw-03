@@ -39,7 +39,6 @@ body {
 }
 
 .container {
-  outline: 1px solid tomato;
   margin: 0 auto;
   padding: 0px 15px;
   width: 1200px;
@@ -149,6 +148,8 @@ body {
 /* Main Section */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   background-color: var(--background-color-secondary);
 }
@@ -244,6 +245,10 @@ body {
 
 /* Section-team */
 
+.section-team-title {
+  padding-top: 94px;
+}
+
 .section-team {
   background-color: #f5f4fa;
 }
@@ -314,19 +319,30 @@ body {
 
 /* Portfolio */
 
+.page-header.portfolio {
+  margin-bottom: 94px;
+}
+
 .filters {
+  display: flex;
   padding: 0 0 0 0;
-  margin: 0 auto 0;
+  margin: 0 auto 50px;
+  justify-content: center;
 
   color: var(--secondary-text-color);
   list-style: none;
 }
 
+.filters .item + .item {
+  margin-left: 8px;
+}
+
 .filter.secondary {
+  border: none;
   border-radius: 4px;
   padding: 6px 22px;
-  text-align: center;
 
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -339,9 +355,11 @@ body {
 .filter.secondary:focus {
   background-color: var(--accent-color);
   color: var(--background-color-main);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* Products */
+/* Products (Filters) */
 
 .filter-products {
   display: flex;
@@ -363,14 +381,32 @@ body {
   margin-bottom: 0px;
 }
 
+/* Products and Photo */
+
+.photo {
+  margin-bottom: 20px;
+}
+
 .products {
+  margin-top: 0px;
+  margin-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
 }
+
+.products-info {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
 .products-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);

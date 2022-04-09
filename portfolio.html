@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="page-header">
+    <header class="page-header portfolio">
       <div class="container main-nav">
         <nav class="main-nav">
           <a href="./index.html" class="logo"><span class="logo-blue">Web</span>Studio</a>
@@ -41,14 +41,14 @@
       </div>
     </header>
     <main>
-      <section>
+      <section class="margin-bottom">
         <div class="container">
           <ul class="filters">
-            <li><button type="button" class="filter secondary">Все</button></li>
-            <li><button type="button" class="filter secondary">Веб-сайты</button></li>
-            <li><button type="button" class="filter secondary">Приложения</button></li>
-            <li><button type="button" class="filter secondary">Дизайн</button></li>
-            <li><button type="button" class="filter secondary">Маркетинг</button></li>
+            <li class="item"><button type="button" class="filter secondary">Все</button></li>
+            <li class="item"><button type="button" class="filter secondary">Веб-сайты</button></li>
+            <li class="item"><button type="button" class="filter secondary">Приложения</button></li>
+            <li class="item"><button type="button" class="filter secondary">Дизайн</button></li>
+            <li class="item"><button type="button" class="filter secondary">Маркетинг</button></li>
           </ul>
         </div>
         <div class="container">
@@ -60,9 +60,12 @@
                   alt="Технокряк"
                   width="370"
                   height="294"
+                  class="photo"
                 />
-                <h3 class="products">Технокряк</h3>
-                <p class="products-text">Веб-сайт</p>
+                <div class="products-info">
+                  <h3 class="products">Технокряк</h3>
+                  <p class="products-text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="item">
@@ -72,9 +75,12 @@
                   alt="Постер New Orlean vs Golden Star"
                   width="370"
                   height="294"
+                  class="photo"
                 />
-                <h3 class="products">Постер New Orlean vs Golden Star</h3>
-                <p class="products-text">Дизайн</p>
+                <div class="products-info">
+                  <h3 class="products">Постер New Orlean vs Golden Star</h3>
+                  <p class="products-text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="item">
@@ -84,9 +90,12 @@
                   alt="Ресторан Seafood"
                   width="370"
                   height="294"
+                  class="photo"
                 />
-                <h3 class="products">Ресторан Seafood</h3>
-                <p class="products-text">Приложение</p>
+                <div class="products-info">
+                  <h3 class="products">Ресторан Seafood</h3>
+                  <p class="products-text">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="item">
@@ -96,9 +105,12 @@
                   alt="Проект Prime"
                   width="370"
                   height="294"
+                  class="photo"
                 />
-                <h3 class="products">Проект Prime</h3>
-                <p class="products-text">Маркетинг</p>
+                <div class="products-info">
+                  <h3 class="products">Проект Prime</h3>
+                  <p class="products-text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="item">
@@ -108,9 +120,12 @@
                   alt="Проект Boxes"
                   width="370"
                   height="294"
+                  class="photo"
                 />
-                <h3 class="products">Проект Boxes</h3>
-                <p class="products-text">Приложение</p>
+                <div class="products-info">
+                  <h3 class="products">Проект Boxes</h3>
+                  <p class="products-text">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="item">
@@ -120,9 +135,12 @@
                   alt="Inspiration has no Borders"
                   width="370"
                   height="294"
+                  class="photo"
                 />
-                <h3 class="products">Inspiration has no Borders</h3>
-                <p class="products-text">Веб-сайт</p>
+                <div class="products-info">
+                  <h3 class="products">Inspiration has no Borders</h3>
+                  <p class="products-text">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="item">
@@ -132,16 +150,27 @@
                   alt="Издание Limited Edition"
                   width="370"
                   height="294"
+                  class="photo"
                 />
-                <h3 class="products">Издание Limited Edition</h3>
-                <p class="products-text">Дизайн</p>
+                <div class="products-info">
+                  <h3 class="products">Издание Limited Edition</h3>
+                  <p class="products-text">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="item">
               <a href="#" class="products-link"
-                ><img src="./images/portfolio/lab.jpg" alt="Проект LAB" width="370" height="294" />
-                <h3 class="products">Проект LAB</h3>
-                <p class="products-text">Маркетинг</p>
+                ><img
+                  src="./images/portfolio/lab.jpg"
+                  alt="Проект LAB"
+                  width="370"
+                  height="294"
+                  class="photo"
+                />
+                <div class="products-info">
+                  <h3 class="products">Проект LAB</h3>
+                  <p class="products-text">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="item">
@@ -151,9 +180,12 @@
                   alt="Growing Business"
                   width="370"
                   height="294"
+                  class="photo"
                 />
-                <h3 class="products">Growing Business</h3>
-                <p class="products-text">Приложение</p>
+                <div class="products-info">
+                  <h3 class="products">Growing Business</h3>
+                  <p class="products-text">Приложение</p>
+                </div>
               </a>
             </li>
           </ul>
