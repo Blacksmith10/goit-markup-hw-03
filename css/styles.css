@@ -300,6 +300,8 @@ body {
 
 .footer {
   background-color: var(--background-color-secondary);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .list-contacts {
@@ -323,6 +325,10 @@ body {
 }
 
 /* Portfolio */
+
+.photo {
+  display: block;
+}
 
 .filters {
   display: flex;
